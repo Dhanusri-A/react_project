@@ -1,33 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function homepage() {
+const HomePage = () => {
   return (
-    <div>
-        <body>
-
-<header>
-  <h1>Book Review App</h1>
-  <p>Discover and share your favorite books</p>
-</header>
-
-<section id="featured-books">
- 
-</section>
-
-<section id="recent-reviews">
-  
-</section>
-
-<section id="auth-buttons">
-  <a href="signup.html" class="auth-button">Sign Up</a>
-  <a href="login.html" class="auth-button">Login</a>
-</section>
-
-<footer>
-  <p>&copy; 2023 Book Review App. All rights reserved.</p>
-</footer>
-
-</body>
+    <div className='style'>
+      <h2>Welcome to give your review!</h2>
+      <p>"If you don’t like to read, you haven’t found the right book." <br/>– J.K. Rowling</p>
     </div>
-  )
-}
+  );
+};
+
+export default HomePage;
