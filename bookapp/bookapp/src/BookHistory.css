@@ -1,0 +1,31 @@
+.history {
+    margin-left: 0.2rem;
+}
+
+.history table {
+    margin-left: 1.5rem;
+}
+
+.history td {
+    padding-right: 1rem;
+}
+
+.history td.time {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 1rem;
+}
+
+.history caption {
+    font-weight: bold;
+    text-align: left;
+}
+
+@media screen and (max-width: 760px) {
+    .history table {
+        margin-left: 0.5rem;
+    }
+
+    .history td {
+        padding-right: 0.5rem;
+    }
+}

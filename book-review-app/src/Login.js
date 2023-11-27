@@ -4,7 +4,7 @@ import Login from './loginDetail';
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className='l'>
       <h2>Login Here!</h2>
       <Login/>
     </div>

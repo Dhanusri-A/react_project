@@ -1,26 +1,19 @@
 import React, { useState } from 'react';
 import { Routes,Route, useNavigate, BrowserRouter } from 'react-router-dom';
 const SignUp = ({ onSignUp }) => {
-  const [Username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
- // const handleSubmit = (e) => {
-  //  e.preventDefault();
-   // onSignUp({ Username, password });
-  //};
   const navigate=useNavigate();
   const handleL = (e) => {
    e.preventDefault();
-   navigate('/BookForm');
+   navigate('/login');
   };
   return (
     <div>
       <form >
         <label>
-          Username:
-          <input type="text" value={
-            Username
-          } onChange={(e) => setUsername(e.target.value)} />
+          Email:
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <br />
         <label>

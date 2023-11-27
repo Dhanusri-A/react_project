@@ -1,3 +1,4 @@
+// src/components/SignUpPage.js
 import React from 'react';
 import SignUp from './signupDetail';
 const SignUpPage = () => {
